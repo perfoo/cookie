@@ -1,0 +1,13 @@
+@mixin b-shadow {
+    box-shadow: 10px 10px 30px $p-color;
+}
+
+@mixin center {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin pm {
+    padding: 8px;
+    margin: 8px;
+}

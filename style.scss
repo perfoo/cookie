@@ -1,21 +1,5 @@
-$p-color: black;
-$s-color: lightgray;
-$p-color-light: lighten($p-color, 20%);
-$p-color-lighter: lighten($p-color, 50%);
-
-@mixin b-shadow {
-    box-shadow: 10px 10px 30px $p-color;
-}
-
-@mixin center {
-    justify-content: center;
-    align-items: center;
-}
-
-@mixin pm {
-    padding: 8px;
-    margin: 8px;
-}
+@import "./colors";
+@import "./mixins"
 
 #x {
     left: 135px;
