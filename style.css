@@ -1,0 +1,92 @@
+#x {
+  left: 135px;
+  top: -5px;
+  position: relative;
+  background-color: unset;
+  color: black;
+  border-radius: 50%;
+  -webkit-transition: all 1 linear;
+  transition: all 1 linear;
+}
+
+#x:hover {
+  background-color: red;
+}
+
+body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  font-family: 'Acme', 'Courier New', Courier, monospace;
+}
+
+main {
+  -webkit-box-shadow: 10px 10px 30px black;
+          box-shadow: 10px 10px 30px black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 300px;
+  min-height: 320px;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+img {
+  padding: 8px;
+  margin: 8px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+div {
+  padding: 8px;
+  margin: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  margin: 4px;
+  color: gray;
+}
+
+button {
+  padding: 8px;
+  margin: 8px;
+  margin-bottom: 24px;
+  border-radius: 15px;
+  color: lightgray;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
